@@ -722,7 +722,7 @@ header .logo img {
   position: sticky;
   top: 10%;
   background-color: #fafafa;
-  z-index: 888;
+  z-index: 99;
 }
 
 .products-title .products-title__container .products-container ul {
