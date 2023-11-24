@@ -89,6 +89,30 @@ document.addEventListener("DOMContentLoaded", function () {
   navLinks[0].click();
 });
 
+const btnUp = document.querySelector(".btn--up");
+
+function toggleBtnVisibility() {
+  if (window.scrollY > 100) {
+    btnUp.style.display = "block";
+  } else {
+    btnUp.style.display = "none";
+  }
+}
+
+window.addEventListener("scroll", toggleBtnVisibility);
+
+btnUp.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  window.scrollTo({
+    left: header.left + window.pageXOffset,
+    top: header.bottom + window.pageYOffset,
+    behavior: "smooth",
+  });
+});
+
+btnUp.style.display = "none";
+
 $(document).ready(function () {
   "use strict";
   // $(".owl-carousel").owlCarousel();

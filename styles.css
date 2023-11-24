@@ -516,6 +516,35 @@ header .logo img {
   }
 }
 
+.btn--up {
+  cursor: pointer;
+  position: fixed;
+  z-index: 10;
+  width: 5rem;
+  height: 5rem;
+  font-family: inherit;
+  border: 1px solid #dda0dd;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  background-color: #dda0dd;
+}
+
+@media (max-width: 900px) {
+  .btn--up {
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+}
+
+.btn--up:hover {
+  background: #f7b7f7;
+}
+
 /* ABOUT PAGE */
 
 .about-hero {
