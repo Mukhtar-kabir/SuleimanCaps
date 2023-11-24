@@ -94,11 +94,11 @@ $(document).ready(function () {
   // $(".owl-carousel").owlCarousel();
 
   $("#featured").owlCarousel({
-    items: 10,
+    items: 15,
     loop: true,
-    smartSpeed: 1000,
+    smartSpeed: 800,
     autoplay: true,
-    dots: true,
+    dots: false,
     autoplayHoverPause: true,
     responsive: {
       0: {
@@ -110,9 +110,9 @@ $(document).ready(function () {
       600: {
         items: 1,
       },
-      // 1200: {
-      //   items: 5,
-      // },
+      1200: {
+        items: 5,
+      },
     },
   });
 });
