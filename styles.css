@@ -716,7 +716,7 @@ header .logo img {
 }
 
 .products-title .products-title__container {
-  padding: 20px 0;
+  padding: 30px 0;
   position: sticky;
   top: 10%;
   background-color: #fafafa;
@@ -759,6 +759,7 @@ header .logo img {
   height: 15rem;
   object-fit: cover;
   margin-bottom: 0.2rem;
+  border-radius: 3px;
 }
 
 .products-title .products-items .item {
