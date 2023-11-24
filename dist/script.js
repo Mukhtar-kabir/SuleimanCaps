@@ -98,6 +98,10 @@ $(document).ready(function () {
     loop: true,
     smartSpeed: 800,
     autoplay: true,
+    navText: [
+      "<div class='nav-button owl-prev'>‹</div>",
+      "<div class='nav-button owl-next'>›</div>",
+    ],
     dots: false,
     autoplayHoverPause: true,
     responsive: {

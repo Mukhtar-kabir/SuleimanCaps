@@ -39,7 +39,8 @@
 
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
-  display: none;
+  /* display: none; */
+  display: block;
 }
 
 .no-js .owl-carousel,
@@ -54,6 +55,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
 }
+
 .owl-carousel.owl-loading {
   opacity: 0;
   display: block;
